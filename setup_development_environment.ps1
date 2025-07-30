@@ -46,5 +46,6 @@ choco install keepass -y
 choco install keepassxc -y
 choco install googledrive -y
 choco install rustdesk -y
+choco install scrcpy -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
