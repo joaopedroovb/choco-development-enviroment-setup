@@ -48,5 +48,6 @@ choco install googledrive -y
 choco install rustdesk -y
 choco install scrcpy -y
 choco install tutanota -y
+choco install telegram -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
