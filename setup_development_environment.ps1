@@ -47,5 +47,6 @@ choco install keepassxc -y
 choco install googledrive -y
 choco install rustdesk -y
 choco install scrcpy -y
+choco install tutanota -y
 
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
