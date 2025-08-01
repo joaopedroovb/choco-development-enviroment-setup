@@ -50,4 +50,8 @@ choco install scrcpy -y
 choco install tutanota -y
 choco install telegram -y
 
+# fonts
+Write-Host "====> Installing fonts..."
+choco install jetbrainsmono -y
+
 Write-Host "=== Your development environment is ready to use! Enjoy! ==="
