@@ -50,6 +50,7 @@ choco install scrcpy -y
 choco install tutanota -y
 choco install telegram -y
 choco install teamviewer -y
+choco install dropbox --pre -y
 
 # fonts
 Write-Host "====> Installing fonts..."
