@@ -49,6 +49,7 @@ choco install rustdesk -y
 choco install scrcpy -y
 choco install tutanota -y
 choco install telegram -y
+choco install teamviewer -y
 
 # fonts
 Write-Host "====> Installing fonts..."
