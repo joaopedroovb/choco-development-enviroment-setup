@@ -52,6 +52,8 @@ choco install telegram -y
 choco install teamviewer -y
 choco install dropbox --pre -y
 choco install localsend -y
+choco install postgresql -y
+choco install dbeaver -y
 
 # fonts
 Write-Host "====> Installing fonts..."
