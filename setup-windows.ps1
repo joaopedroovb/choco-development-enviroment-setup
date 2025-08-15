@@ -7,10 +7,7 @@ if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
     Write-Host "Chocolatey já está instalado."
 }
 
-Write-Host "====> Instalando ChocolateyGUI..."
 choco install ChocolateyGUI -y
-
-Write-Host "`n====> Instalando componentes principais..."
 choco install git -y
 choco install gnupg -y
 choco install curl -y
@@ -18,23 +15,13 @@ choco install wget -y
 choco install nodejs-lts -y
 choco install microsoft-openjdk17 -y
 choco install dotnetfx --pre -y
-
-Write-Host "`n====> Instalando editores de texto..."
 choco install notesnook -y
-
-Write-Host "`n====> Instalando navegadores web..."
 choco install firefox -y
 choco install librewolf -y
-
-Write-Host "`n====> Instalando ferramentas Git GUI..."
 choco install git-fork -y
 choco install git-cola -y
 choco install gitextensions -y
-
-Write-Host "`n====> Instalando IDEs..."
 choco install vscode -y
-
-Write-Host "`n====> Instalando softwares adicionais..."
 choco install dbeaver -y
 choco install insomnia-rest-api-client -y
 choco install postgresql -y
@@ -48,8 +35,6 @@ choco install telegram -y
 choco install teamviewer -y
 choco install dropbox --pre -y
 choco install localsend -y
-
-Write-Host "`n====> Instalando fontes..."
 choco install jetbrainsmono -y
 
 $dotfilesRepo = "https://github.com/joaopedroovb/choco-development-enviroment-setup.git"
