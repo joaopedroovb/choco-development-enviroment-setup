@@ -1,0 +1,42 @@
+[user]
+    name = Joao Pedro Oliveira
+    email = olliveiravb@gmail.com
+
+	signingkey = 9CA60338CA9F739B83C4341BB96A620EF2211120
+[core]
+    editor = code --wait
+    excludesfile = ~/.gitignore_global
+    autocrlf = true
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
+
+[init]
+    defaultBranch = main
+
+[push]
+    default = simple
+    autoSetupRemote = true
+
+[pull]
+    ff = only
+
+[alias]
+    visual = !gitk
+
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[color]
+    ui = true
+
+[diff]
+    tool = code
+
+[merge]
+    tool = code
+
+[github]
+    user = joaopedroovb
