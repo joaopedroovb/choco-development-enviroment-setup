@@ -27,6 +27,7 @@ choco install telegram -y
 choco install teamviewer -y
 choco install localsend -y
 choco install jetbrainsmono -y
+choco install python --pre -y
 
 $dotfilesRepo = "https://github.com/joaopedroovb/choco-development-enviroment-setup.git"
 $dotfilesPath = "$env:USERPROFILE\dotfiles"
