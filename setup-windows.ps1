@@ -10,30 +10,21 @@ if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
 choco install ChocolateyGUI -y
 choco install git -y
 choco install gnupg -y
-choco install curl -y
-choco install wget -y
 choco install nodejs-lts -y
 choco install microsoft-openjdk17 -y
 choco install dotnetfx --pre -y
 choco install notesnook -y
-choco install firefox -y
 choco install librewolf -y
-choco install git-fork -y
-choco install git-cola -y
-choco install gitextensions -y
 choco install vscode -y
 choco install dbeaver -y
 choco install insomnia-rest-api-client -y
 choco install postgresql -y
-choco install keepass -y
-choco install keepassxc -y
 choco install googledrive -y
 choco install rustdesk -y
 choco install scrcpy -y
 choco install tutanota -y
 choco install telegram -y
 choco install teamviewer -y
-choco install dropbox --pre -y
 choco install localsend -y
 choco install jetbrainsmono -y
 
